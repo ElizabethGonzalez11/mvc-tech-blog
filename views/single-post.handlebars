@@ -1,0 +1,18 @@
+
+<div class="card">
+  <h2 class="card-header">Create a new post</h2>
+  <form class="card-body comment" id="new-comment">
+
+    <label class="label">comment</label>
+    <input id="comment" class="post-input"/>
+
+    <button type="submit" class="btn">POST</button>
+  </form>  
+</div>
+{{/if}}
+
+{{>comments post.comments}}
+
+{{#if logged_in}}
+<script src="/js/comments.js"></script>
+{{/if}}
