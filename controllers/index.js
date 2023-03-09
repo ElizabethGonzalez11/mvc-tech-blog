@@ -1,4 +1,3 @@
-//some boiler plate info from mini-project
 
 const router = require('express').Router();
 const apiRoutes = require('./api');

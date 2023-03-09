@@ -7,7 +7,7 @@ router.get('/', async (req, res) => {
   const commentData = await Comment.findAll().catch((err) => { 
       res.json(err);
     });
-      const comments = commentData.map((comment) => comment.get({ plain: true }));
+      const comment = commentData.map((comment) => comment.get({ plain: true }));
       res.render('all', { dishes });
     });
 
