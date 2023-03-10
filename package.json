@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "seed": "node seeds/seed.js"
   },
   "keywords": [],
   "author": "",
@@ -18,6 +17,7 @@
     "express": "^4.18.2",
     "express-handlebars": "^7.0.1",
     "express-session": "^1.17.3",
+    "heroku": "^7.69.0",
     "mysql2": "^3.2.0",
     "sequelize": "^6.29.1"
   }
