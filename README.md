@@ -52,7 +52,7 @@ THEN I am able to view comments but I am prompted to log in again before I can a
 
 ## Visuals
 
-This app is deployed on Heroku: 
+
 
 ## Packages Utilized
 
